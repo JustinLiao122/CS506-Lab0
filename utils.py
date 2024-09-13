@@ -52,7 +52,7 @@ def nearest_neighbor(target_vector, vectors):
             close = x
             y = i
 
-    return close
+    return y
 
 
 
