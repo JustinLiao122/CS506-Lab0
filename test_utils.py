@@ -30,6 +30,6 @@ def test_nearest_neighbor():
     vectors = np.array([[3, 1, 1], [7, 3, 5], [8, 7, 6]])
     result = nearest_neighbor(vector1, vectors)
     
-    expected_index = 3
+    expected_index = 2
     
     assert result == expected_index, f"Expected index {expected_index}, but got {result}"
